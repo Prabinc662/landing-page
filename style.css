@@ -1,0 +1,27 @@
+body {
+    font: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
